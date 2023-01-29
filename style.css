@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/*
+    **************************** CSS Reset End ****************************
+*/
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: var(--white);
+    max-width: 16.875rem;
+    padding: 0.9rem;
+    border-radius: 1.25rem;
+    line-height: 1.2;
+}
+
+.card__qr-code {
+    border-radius: 0.40rem;
+}
+
+.card__heading {
+    color: var(--dark-blue);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 1.15rem;
+}
+
+.card__description {
+    color: var(--grayish-blue);
+    font-weight: 400;
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 0 1rem 1rem;
+}
+
+.attribution {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 0.50rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
