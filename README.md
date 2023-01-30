@@ -46,16 +46,9 @@ I have learned about using Semantic HTML5 markup and how to use the Flexbox. Als
 
 ```html
 <main class="card">
-  <figure>
-    <picture>
-      <img class="card__qr-code" src="./images/image-qr-code.png" alt="Scan to visit Frontend Mentor" />
-    </picture>
-  </figure>
-  <section>
-    <h1 class="card__heading">Improve your front-end skills by building projects</h1>
-    <p class="card__description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next
-      level</p>
-  </section>
+  <img class="card__qr-code" src="./images/image-qr-code.png" alt="QR code to visit Frontend Mentor" />
+  <h1 class="card__heading">Improve your front-end skills by building projects</h1>
+  <p class="card__description">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 </main>
 ```
 ```css
