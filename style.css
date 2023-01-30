@@ -72,7 +72,7 @@ body {
 
 .card {
     background: var(--white);
-    max-width: 16.875rem;
+    max-width: 19rem;
     padding: 0.9rem;
     border-radius: 1.25rem;
     line-height: 1.2;
@@ -87,13 +87,13 @@ body {
     font-size: 1.125rem;
     font-weight: 700;
     text-align: center;
-    padding: 1.15rem;
+    padding: 1.25rem;
 }
 
 .card__description {
     color: var(--grayish-blue);
     font-weight: 400;
-    font-size: 0.75rem;
+    font-size: 0.9375rem;
     text-align: center;
     padding: 0 1rem 1rem;
 }
